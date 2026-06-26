@@ -1,0 +1,89 @@
+# =============================================================================
+# ninehub-mcp — Python/FastAPI backend + Vue 3/Vite Admin UI
+# (adapted from ninehub/.gitignore)
+# =============================================================================
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# --- IDE / editors ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# Cursor (local only, not versioned)
+.cursor/
+
+# --- Environment & secrets ---
+.env
+.env.*
+!.env.example
+!examples/.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+build/
+dist/
+*.manifest
+*.spec
+
+# Testing & coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# --- Local config & CLI outputs ---
+schema.json
+mcp-config.json
+generated/
+
+# --- Admin runtime (SQLite) ---
+*.db
+ninehub_mcp_admin.db
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Frontend (Vue 3 + Vite) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# --- Project docs (local only, not versioned) ---
+docs/
+
+# --- Misc ---
+*.bak
+*.tmp
+.cache/
