@@ -4,6 +4,8 @@
 
 独立项目：**不修改、不依赖 [NineHub](https://github.com/)**；NineHub 的 PG 仅作为可连接数据源之一。
 
+[知乎专栏](https://www.zhihu.com/column/c_2051647988053943380) — 产品介绍、使用教程与更新说明
+
 设计文档：[docs/DESIGN-v3-confirmed.md](docs/DESIGN-v3-confirmed.md) · Admin UI：[docs/UI-DESIGN.md](docs/UI-DESIGN.md)
 
 ---
